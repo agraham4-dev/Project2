@@ -3,8 +3,8 @@ The second project in CMSC 313, implementing assembly
 
 The code can be executed if put into a linux prompt and run
 
-as proj2.s -o proj2
+as -o proj2.o proj2.s
 
-then run
+ld -o proj2 proj2.o
 
 ./proj2
